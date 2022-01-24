@@ -1,0 +1,11 @@
+while _G.Toggle do wait()
+for i,v in pairs(game:GetService("Workspace")["__THINGS"].Orbs:GetChildren()) do
+local table_1 = {
+[1] = {
+[1] = v.Name
+}
+};
+local Target = game:GetService("Workspace")["__THINGS"]["__REMOTES"]["claim orbs"];
+Target:FireServer(table_1);
+end
+end)
