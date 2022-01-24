@@ -8,4 +8,3 @@ local table_1 = {
 local Target = game:GetService("Workspace")["__THINGS"]["__REMOTES"]["claim orbs"];
 Target:FireServer(table_1);
 end
-end)
