@@ -1,3 +1,4 @@
+while wait() do
    for i,v in pairs(game:GetService("Workspace")["__THINGS"].Orbs:GetChildren()) do
 local table_1 = {
 [1] = {
